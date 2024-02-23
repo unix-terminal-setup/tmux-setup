@@ -9,7 +9,6 @@ on:
 jobs:
   tmux-setup:
     runs-on: ubuntu-22.04
-    options: --user root
     defaults:
       run:
         shell: bash
