@@ -9,6 +9,7 @@ on:
 jobs:
   tmux-setup:
     runs-on: ubuntu-22.04
+    options: --user root
     defaults:
       run:
         shell: bash
@@ -16,4 +17,4 @@ jobs:
       - uses: actions/checkout@v4
       - name: Execute & Verify Script
         run: |
-          sudo -S $GITHUB_WORKSPACE/setup.sh
+          $GITHUB_WORKSPACE/setup.sh
