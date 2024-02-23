@@ -16,4 +16,4 @@ jobs:
       - uses: actions/checkout@v4
       - name: Execute & Verify Script
         run: |
-          $GITHUB_WORKSPACE/setup.sh
+          sudo -S $GITHUB_WORKSPACE/setup.sh
