@@ -2,4 +2,4 @@
 
 set -euo pipefail
 
-apt install tmux
+sudo -S apt install tmux
