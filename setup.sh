@@ -10,4 +10,4 @@ mkdir -p ~/.config/tmux/
 
 curl https://raw.githubusercontent.com/dreamsofcode-io/tmux/main/tmux.conf -o ~/.config/tmux/tmux.conf
 
-tmux source ~/.config/tmux/tmux.conf
+tmux source ~/.config/tmux/tmux.conf || true
