@@ -20,10 +20,10 @@ Prefix changed to `ctrl + space`.
 
 ### Quick Start
 
-Set up your favourite terminal, right now we have a script for quickly setting up [`Alacritty` with `Jetbrains Mono Nerd Font`](https://github.com/linux-terminal-setup/alacritty-setup).
+Set up your favourite terminal, right now we have a script for quickly setting up [`Alacritty` with `Jetbrains Mono Nerd Font`](https://github.com/unix-terminal-setup/alacritty-setup).
 
 ```bash
-curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/linux-terminal-setup/tmux-setup/main/setup.sh | bash
+curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/unix-terminal-setup/tmux-setup/main/setup.sh | bash
 ```
 
 Afterwards in `tmux` press `ctrl + space` (prefix) and then afterwards `I` so that `tmux` install all the plugins.
